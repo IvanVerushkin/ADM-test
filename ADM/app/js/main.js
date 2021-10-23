@@ -10,10 +10,10 @@ let Myswiper1 = new Swiper('.slider-conteiner', {
         nextEl: '.slider-button-next',
         prevEl: '.slider-button-prev',
     },
-    autoplay: {
-        stopOnLastSlide: false,
-        disableOnInteraction: false
-    },
+    // autoplay: {
+    //     stopOnLastSlide: false,
+    //     disableOnInteraction: false
+    // },
     pagination: {
         el: '.swiper-pagination',
         clickable: true
