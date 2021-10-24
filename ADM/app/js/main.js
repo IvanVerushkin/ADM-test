@@ -1,5 +1,17 @@
+const header__burger = document.querySelector('.header__burger');
+const header__nav = document.querySelector('.header__nav');
+const body = document.body;
 const swiper = document.querySelector('.swiper-container');
 const swiper2 = document.querySelector('.swiper-container2');
+
+function headerActions () {
+    header__burger.classList.toggle('active');
+    header__nav.classList.toggle('active');
+    body.classList.toggle('lock');
+}
+
+header__burger.onclick = headerActions;
+
 
 let Myswiper1 = new Swiper('.slider-conteiner', {
     wrapperClass: 'slider-wrapper',
