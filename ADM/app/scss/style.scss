@@ -26,10 +26,10 @@ h2 {
 }
 
 body {
-   overflow-x: hidden;
    background-color: #ffffff;
    font-family: 'Roboto', sans-serif;
    line-height: 1.2;
+   overflow-x: hidden;
 }
 
 // font-family: 'Open Sans', sans-serif;
@@ -39,11 +39,12 @@ body {
    flex-direction: column;
    margin: 0 auto;
    min-height: 100%;
-   overflow: hidden;
+   overflow-x: hidden;
 }
 
 .content {
    flex: 1 0 auto;
+   overflow-x: hidden;
 }
 
 .container {
@@ -51,6 +52,7 @@ body {
    padding: 0 30px;
    margin: 0 auto;
    background-color: #fff;
+   overflow-x: hidden;
 }
 
 .header {

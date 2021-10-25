@@ -7,7 +7,6 @@ const swiper2 = document.querySelector('.swiper-container2');
 function headerActions () {
     header__burger.classList.toggle('active');
     header__nav.classList.toggle('active');
-    body.classList.toggle('lock');
 }
 
 header__burger.onclick = headerActions;
