@@ -40,6 +40,11 @@ let Myswiper2 = new Swiper('.customers__container', {
         nextEl: '.customers-button-next',
         prevEl: '.customers-button-prev',
     },
+    breakpoints: {
+        480: {
+            slidesPerView: 4,
+        }
+    },
     // autoplay: {
     //     stopOnLastSlide: false,
     //     disableOnInteraction: false
