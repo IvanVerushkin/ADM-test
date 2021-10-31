@@ -1267,11 +1267,14 @@ body {
    .production__speclink--2 {
       font-size: 14px;
    }
+   .production__item {
+      width: 70%;
+   }
    .production__item-content--4 {
-      top: 120px;
+      top: 140px;
    }
    .swiper-pagination {
-      bottom: 108px !important;
+      bottom: 135px !important;
    }
    .slider-conteiner {
       margin-bottom: 40px;
@@ -1281,6 +1284,15 @@ body {
    }
    .paragraph__descr {
       font-size: 14px;
+   }
+   .paragraph__title, 
+   .production__title, 
+   .benefits__title, 
+   .customers__title {
+      font-size: 23px;
+   }
+   .footer__item-content-big {
+      text-align: center;
    }
 }
 
