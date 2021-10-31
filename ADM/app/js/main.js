@@ -43,6 +43,12 @@ let Myswiper2 = new Swiper('.customers__container', {
     breakpoints: {
         480: {
             slidesPerView: 4,
+        },
+        411: {
+            slidesPerView: 3,
+        },
+        320: {
+            slidesPerView: 2,
         }
     },
     // autoplay: {

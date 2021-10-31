@@ -1213,5 +1213,121 @@ body {
          }
       }
    }
-   
+}
+
+@media (max-width: 414px) {
+   .nav-menu {
+      left: -105px;
+      &__list {
+         padding: 10px;
+      }
+      &__pnt {
+         margin-bottom: 10px;
+      }
+   }
+   .text-box {
+      left: 0px;
+   }
+   .production {
+      &__item {
+         width: 60%;
+         height: 245px;
+         &-content--3 {
+            top: 114px;
+         }
+         &-content--4 {
+            top: 135px;
+         }
+      }
+      &__image {
+         height: 150px;
+         &-img {
+            height: 150px;
+            &--2 {
+               height: 244px;
+            }
+            &--3 {
+               height: 244px;
+            }
+         }
+      }
+   } 
+}
+
+@media (max-width: 375px) {
+   .production__item-title--5 {
+      font-size: 15px;
+   }
+   .swiper-pagination {
+      bottom: 135px !important;
+   }
+}
+
+@media (max-width: 360px) {
+   .production__speclink--2 {
+      font-size: 14px;
+   }
+   .production__item-content--4 {
+      top: 120px;
+   }
+   .swiper-pagination {
+      bottom: 108px !important;
+   }
+   .slider-conteiner {
+      margin-bottom: 40px;
+   }
+   .text-box__title {
+      font-size: 16px;
+   }
+   .paragraph__descr {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 320px) {
+   .nav-menu {
+      left: -108px;
+      &__list {
+         width: 230px;
+      }
+   }
+   .swiper-item {
+      height: 500px;
+   }
+   .text-box {
+      top: 323px;
+      max-width: 310px;
+   }
+   .text-box__title {
+      font-size: 15px;
+   }
+   .swiper-pagination {
+      bottom: -30px !important;
+   }
+   .first-slider-arrows {
+      bottom: 220px;
+   }
+   .production__item {
+      width: 90%;
+   }
+   .production__item-content--4 {
+      top: 138px;
+   }
+   .benefits {
+      &__item {
+         margin-bottom: 30px;
+      }
+      &__image {
+         height: 80px;
+      }
+      &__text {
+         font-size: 16px;
+      }
+   }
+   .benefits__image {
+      height: 80px;
+   }
+   .benefits__text {
+      font-size: 16px;
+   }
 }
