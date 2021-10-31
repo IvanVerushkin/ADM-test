@@ -1134,6 +1134,9 @@ body {
 }
 
 @media (max-width: 568px) {
+   .header__nav-list {
+      padding: 0;
+   }
    .production {
       &__title {
          margin-bottom: 35px;
@@ -1182,6 +1185,39 @@ body {
 }
 
 @media (max-width: 533px) {
+   .swiper-item {
+      height: 400px;
+   }
+   .text-box {
+      top: 277px;
+   }
+   .nav-menu {
+      left: -90px;
+   }
+   .production {
+      &__item {
+         width: 60%;
+         height: 245px;
+      }
+      &__item-content--3 {
+         top: 115px;
+      }
+      &__item-content--4 {
+         top: 135px;
+      }
+      &__image {
+         height: 150px;
+         &-img {
+            height: 150px;
+            &--2 {
+               height: 245px;
+            }
+            &--3 {
+               height: 245px;
+            }
+         }
+      }
+   }
    .benefits {
       &__inner {
          margin-bottom: 50px;
@@ -1212,6 +1248,15 @@ body {
             order: 2;
          }
       }
+      &__phone {
+         font-size: 12px;
+      }
+      &__link {
+         font-size: 12px;
+      }
+      &__item-content-big {
+         text-align: center;
+      }
    }
 }
 
@@ -1232,12 +1277,6 @@ body {
       &__item {
          width: 70%;
          height: 255px;
-         &-content--3 {
-            top: 114px;
-         }
-         &-content--4 {
-            top: 135px;
-         }
       }
       &__image {
          height: 160px;
@@ -1296,9 +1335,6 @@ body {
    .benefits__title, 
    .customers__title {
       font-size: 23px;
-   }
-   .footer__item-content-big {
-      text-align: center;
    }
 }
 

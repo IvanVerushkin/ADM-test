@@ -51,8 +51,8 @@ let Myswiper2 = new Swiper('.customers__container', {
             slidesPerView: 2,
         }
     },
-    // autoplay: {
-    //     stopOnLastSlide: false,
-    //     disableOnInteraction: false
-    // }
+    autoplay: {
+        stopOnLastSlide: false,
+        disableOnInteraction: false
+    }
 });
