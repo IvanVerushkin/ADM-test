@@ -1230,8 +1230,8 @@ body {
    }
    .production {
       &__item {
-         width: 60%;
-         height: 245px;
+         width: 70%;
+         height: 255px;
          &-content--3 {
             top: 114px;
          }
@@ -1240,18 +1240,24 @@ body {
          }
       }
       &__image {
-         height: 150px;
+         height: 160px;
          &-img {
-            height: 150px;
+            height: 160px;
             &--2 {
-               height: 244px;
+               height: 255px;
             }
             &--3 {
-               height: 244px;
+               height: 255px;
             }
          }
       }
-   } 
+   }
+   .production__item-content--3 {
+      top: 125px;
+   }
+   .production__item-content--4 {
+      top: 145px;
+   }
 }
 
 @media (max-width: 375px) {
