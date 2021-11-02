@@ -21,10 +21,10 @@ let Myswiper1 = new Swiper('.slider-conteiner', {
         nextEl: '.slider-button-next',
         prevEl: '.slider-button-prev',
     },
-    // autoplay: {
-    //     stopOnLastSlide: false,
-    //     disableOnInteraction: false
-    // },
+    autoplay: {
+        stopOnLastSlide: false,
+        disableOnInteraction: false
+    },
     pagination: {
         el: '.swiper-pagination',
         clickable: true
@@ -41,10 +41,16 @@ let Myswiper2 = new Swiper('.customers__container', {
         prevEl: '.customers-button-prev',
     },
     breakpoints: {
-        480: {
+        992: {
+            slidesPerView: 6,
+        },
+        768: {
+            slidesPerView: 5,
+        },
+        667: {
             slidesPerView: 4,
         },
-        411: {
+        533: {
             slidesPerView: 3,
         },
         320: {

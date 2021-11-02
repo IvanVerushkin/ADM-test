@@ -432,11 +432,53 @@ body {
       display: grid;
       align-items: center;
       justify-items: center;
+      // &-img {
+      //    -webkit-filter: grayscale(99%);  
+      //    filter: grayscale(99%);  
+      // }
+      // &-img:hover {
+      //    transition: filter .3s ease-in-out;
+      //    -webkit-filter: grayscale(0%);  
+      //    filter: grayscale(0%);
+      // }
+   }
+   &__link-image {
+         width: 150px;
+         height: 120px;
+         background-repeat: no-repeat;
+         background-position: center;
+         -webkit-filter: grayscale(99%);  
+         filter: grayscale(99%);
+         &:hover {
+            transition: filter .4s ease-in-out;
+            -webkit-filter: grayscale(0%);  
+            filter: grayscale(0%);
+         }
+      &--1 {
+         background-image: url(../images/customers/1.webp);
+      }
+      &--2 {
+         background-image: url(../images/customers/2.webp);
+      }
+      &--3 {
+         background-image: url(../images/customers/3.webp);
+      }
+      &--4 {
+         background-image: url(../images/customers/4.webp);
+      }
+      &--5 {
+         background-image: url(../images/customers/5.webp);
+      }
+      &--6 {
+         background-image: url(../images/customers/6.webp);
+      }
    }
    &__arrows {
       display: contents;
    }
 }
+   
+
 
 .customers-button-next {
    right: -15px;
@@ -648,16 +690,17 @@ body {
       &__button {
          top: 143px;
       }
-      &__item-img {
-         max-height: 75px;
+   }
+   .footer {
+      &__inner {
+         padding-top: 30px;
       }
-   }
-   .footer__inner {
-      padding-top: 30px;
-   }
-   .footer__phone,
-   .footer__link {
-      font-size: 14px;
+      &__phone {
+         font-size: 14px;
+      }
+      &__link {
+         font-size: 14px;
+      }
    }
 }
 
@@ -750,9 +793,6 @@ body {
       margin-bottom: 45px;
    }
    .customers {
-      &__item-img {
-         max-height: 65px;
-      }
       &__button {
          top: 140px;
       }
@@ -947,10 +987,6 @@ body {
       &__button {
          top: 130px;
       }
-      &__item-img {
-         max-height: 60px;
-         max-width: 105px;
-      }
    }
    .footer__phone, .footer__link {
       font-size: 11px;
@@ -993,9 +1029,6 @@ body {
       &__title {
          margin-bottom: 30px;
       }
-      &__item-img {
-         max-width: 110px;
-      }
       &__button {
          top: 125px;
       }
@@ -1015,9 +1048,6 @@ body {
    .footer__privacy,
    .logotype__descr {
       font-size: 10px;
-   }
-   .customers__item-img {
-      max-width: 100px;
    }
    .customers__title {
       margin-bottom: 30px;
@@ -1079,10 +1109,6 @@ body {
       &--5 {
          font-size: 18px;
       }
-   }
-   .customers__item-img {
-      max-height: 70px;
-      max-width: 115px;
    }
    .customers-button-next {
       right: -10px;
@@ -1164,9 +1190,22 @@ body {
          margin-top: 25px;
       }
    }
-   .customers__item-img {
-      max-height: 70px;
-      max-width: 100px;
+   .benefits {
+      &__inner {
+         margin-bottom: 50px;
+      }
+      &__row {
+         flex-wrap: wrap;
+         justify-content: space-around;
+         max-width: 460px;
+         margin: 0 auto;
+      }
+      &__item {
+         margin-bottom: 20px;
+      }
+      &__text {
+         font-size: 13px;
+      }
    }
 }
 
@@ -1250,23 +1289,6 @@ body {
                height: 245px;
             }
          }
-      }
-   }
-   .benefits {
-      &__inner {
-         margin-bottom: 50px;
-      }
-      &__row {
-         flex-wrap: wrap;
-         justify-content: space-around;
-         max-width: 460px;
-         margin: 0 auto;
-      }
-      &__item {
-         margin-bottom: 20px;
-      }
-      &__text {
-         font-size: 13px;
       }
    }
    .footer {
